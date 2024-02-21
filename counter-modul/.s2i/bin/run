@@ -3,7 +3,7 @@
 set -eo pipefail
 if [ x"$DATA_DIRECTORY" != "x" ]; then
  mkdir -p $DATA_DIRECTORY
- cp /tmp/src/fis/src/main/resources/data/* $DATA_DIRECTORY
+ cp /tmp/src/counter-modul/src/main/resources/data/* $DATA_DIRECTORY
  else
 
 
